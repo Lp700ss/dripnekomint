@@ -552,12 +552,12 @@ const Home = (props: HomeProps) => {
                     <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                           src="logo.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"></a>
                         </li>
                         <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 2</a></li>
+                               rel="noopener noreferrer"></a></li>
                         <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                               rel="noopener noreferrer"></a></li>
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -570,7 +570,7 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>0xDripNeko</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
@@ -658,31 +658,31 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 1</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>0xDripNeko</GoldTitle></LogoAligner>
+                            <p>In a nihilistic world, they drip with funk and swag.</p>
+                            <p>0xDripNekos is a collection of 5555 sentients in a dystopian realm of existence that shows the artist’s multifaceted vision through his art and defies the mainstream explication of beauty..</p>
+                            <p>This collection comprises over 200 quirky traits with varying rarity.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 2</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Traits</GoldTitle></LogoAligner>
+                            <p>Explicitly the traits belong to - 
+Background, Body, Pants, Tshirts, Earrings, Chains, Nose, Mouth, Hats.
+
+</p>
+                            <p>The rarest ones out of all are : - 
+Hellneko's body, eyes, nose. ||
+Fire crown and fire halo. ||
+Gold earring and chain. ||
+Supreme and Louis Vuitton Tshirt</p>
+                            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.</p> */}
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Why Us?</GoldTitle></LogoAligner>
+                            <p>The future of this NFT is explicit with evolution into a thrilling metaverse of sci-fi and fantasy filled with 3D animations, VR comics, AR collectables and metaverse events..</p>
+                            <p>This collection is a part of The Sol Neko Collective</p>
+                            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.</p> */}
                         </Des>
                     </DesContainer>
                 </MintContainer>
