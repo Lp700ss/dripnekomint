@@ -1,8 +1,8 @@
 # Introduction
 
-### SOON : Setup Multi-Mint using this repository, explained in video by 'Stractors' https://www.youtube.com/channel/UCf-oH3TIq8xHVtVogrpTm7g
 
-**Prod-ready Responsive UI** which can be easily customized in 5mn.
+
+
 
 All Candy Machine V2 functionalities are implemented, auto detected and maintained up-to-date :
 
@@ -13,7 +13,7 @@ All Candy Machine V2 functionalities are implemented, auto detected and maintain
 - end date / end number (endSettings)
 - spl-token to mint
 
-![Candy Machine Preview Image](https://i.imgur.com/WWSvkBO.png)
+
 
 ### Supported Wallets
 
